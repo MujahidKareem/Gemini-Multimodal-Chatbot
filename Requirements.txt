@@ -1,0 +1,23 @@
+Requirements 
+
+streamlit
+google-generativeai
+SpeechRecognition
+PyPDF2
+python-docx
+Pillow
+```
+
+ ✅ Optional (if needed for audio or compatibility):
+
+```
+pyaudio       # Only needed if you're capturing microphone input locally
+```
+
+> ⚠️ On Windows, installing `pyaudio` may require:
+
+```bash
+pip install pipwin
+pipwin install pyaudio
+```
+
